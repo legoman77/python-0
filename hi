@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+red = '\033[0;31m'
+reset = '\033[0m'
+
+
+print(red + 'what is your name' + reset )
+name = input('> ')
+print('hi there ' + name)
+
